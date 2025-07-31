@@ -22,3 +22,42 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+# Laravel default
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env.backup
+.env.example.local
+
+# Laravel IDE Helper (optional)
+_ide_helper.php
+_ide_helper_models.php
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log Files
+*.log
+
+# Cache / Build / Debug
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Composer lock if managing with own lock file
+# composer.lock
